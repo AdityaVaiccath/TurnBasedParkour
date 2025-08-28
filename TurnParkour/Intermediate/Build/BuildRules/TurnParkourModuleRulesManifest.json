@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\UnrealProj\\TurnBasedParkour\\TurnParkour\\Source\\TurnParkour\\TurnParkour.Build.cs",
+		"C:\\UnrealProj\\TurnBasedParkour\\TurnParkour\\Source\\TurnParkour.Target.cs",
+		"C:\\UnrealProj\\TurnBasedParkour\\TurnParkour\\Source\\TurnParkourEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.1"
+}

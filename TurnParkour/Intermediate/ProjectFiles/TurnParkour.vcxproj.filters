@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TurnParkour.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TurnParkour.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TurnParkourEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TurnParkour">
+      <UniqueIdentifier>{FAB6A60C-434C-3D54-A7D9-6495988694A1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TurnParkour\TurnParkour.Build.cs">
+      <Filter>Source\TurnParkour</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TurnParkour\TurnParkour.cpp">
+      <Filter>Source\TurnParkour</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\TurnParkour.h">
+      <Filter>Source\TurnParkour</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\TurnParkourCharacter.cpp">
+      <Filter>Source\TurnParkour</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\TurnParkourCharacter.h">
+      <Filter>Source\TurnParkour</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\TurnParkourGameMode.cpp">
+      <Filter>Source\TurnParkour</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\TurnParkourGameMode.h">
+      <Filter>Source\TurnParkour</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\TurnParkourPlayerController.cpp">
+      <Filter>Source\TurnParkour</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\TurnParkourPlayerController.h">
+      <Filter>Source\TurnParkour</Filter>
+    </ClInclude>
+    <Filter Include="Source\TurnParkour\Private">
+      <UniqueIdentifier>{5499A177-97F6-3292-963E-625375C4A6A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TurnParkour\Private\Player">
+      <UniqueIdentifier>{1DC65E7F-F73A-3406-8606-0177177FA645}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TurnParkour\Private\Player\TP_Character_Base.cpp">
+      <Filter>Source\TurnParkour\Private\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\TurnParkour\Public">
+      <UniqueIdentifier>{342847A6-1F77-3277-BD8C-2EBD765B93B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\TurnParkour\Public\Player">
+      <UniqueIdentifier>{947F13CC-FC18-340F-A908-CE1D9B284178}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TurnParkour\Public\Player\TP_Character_Base.h">
+      <Filter>Source\TurnParkour\Public\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\TurnParkour\Variant_Combat">
+      <UniqueIdentifier>{A08677DB-E164-3B62-AE20-14DDB4173ECB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\TurnParkour\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\TurnParkour\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\TurnParkour\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\TurnParkour\Variant_Combat\AI">
+      <UniqueIdentifier>{04652183-BD6C-3BA4-8E23-B8902EFD52DF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\TurnParkour\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\TurnParkour\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\TurnParkour\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\TurnParkour\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\TurnParkour\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\TurnParkour\Variant_Combat\Animation">
+      <UniqueIdentifier>{0D06B3E0-B133-337C-84C2-447E1C07A54A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\TurnParkour\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\TurnParkour\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\TurnParkour\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\TurnParkour\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{1360ACB5-F66E-3278-AAE6-EEB8AB08D312}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\TurnParkour\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\TurnParkour\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\TurnParkour\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\TurnParkour\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\TurnParkour\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\TurnParkour\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{A40006B8-24AA-306E-A8A8-BBDC8C2F67B3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\TurnParkour\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\TurnParkour\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\TurnParkour\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\TurnParkour\Variant_Combat\UI">
+      <UniqueIdentifier>{A73C9AB5-04CC-3A96-A656-C28500B4B461}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\TurnParkour\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\TurnParkour\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\TurnParkour\Variant_Platforming">
+      <UniqueIdentifier>{F30943B8-A5FF-3217-9BB9-F6D1FBDFEFFA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\TurnParkour\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\TurnParkour\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\TurnParkour\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\TurnParkour\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\TurnParkour\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\TurnParkour\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\TurnParkour\Variant_Platforming\Animation">
+      <UniqueIdentifier>{CC0B18B8-6CFA-32E9-BC19-3C92447405EF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\TurnParkour\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\TurnParkour\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\TurnParkour\Variant_SideScrolling">
+      <UniqueIdentifier>{3000606F-2108-3743-87C1-D1E20064A764}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\TurnParkour\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\TurnParkour\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\TurnParkour\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\TurnParkour\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\TurnParkour\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\TurnParkour\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\TurnParkour\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\TurnParkour\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\TurnParkour\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{B70F7187-A40E-3304-A7B5-6123166DF1BF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\TurnParkour\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{F10F250B-32D4-3549-8ECA-8B27EA6EAA62}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\TurnParkour\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{B5FF735A-F0A2-3148-9807-4BFC94A0F907}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\TurnParkour\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{37AE1760-73A5-35C4-84C3-DE28374043B1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TurnParkour\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\TurnParkour\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
