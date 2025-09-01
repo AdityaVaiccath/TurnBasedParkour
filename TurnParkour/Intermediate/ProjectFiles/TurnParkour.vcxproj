@@ -252,6 +252,8 @@
     <None Include="..\..\TurnParkour.uproject"/>
     <None Include="..\..\Source\TurnParkour.Target.cs"/>
     <None Include="..\..\Source\TurnParkourEditor.Target.cs"/>
+    <None Include="..\..\.gitattributes"/>
+    <None Include="..\..\.gitignore"/>
     <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
@@ -278,7 +280,11 @@
     <ClCompile Include="..\..\Source\TurnParkour\Private\Player\TP_Character_Base.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClCompile Include="..\..\Source\TurnParkour\Private\Player\TP_ParkourController.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClInclude Include="..\..\Source\TurnParkour\Public\Player\TP_Character_Base.h"/>
+    <ClInclude Include="..\..\Source\TurnParkour\Public\Player\TP_ParkourController.h"/>
     <ClCompile Include="..\..\Source\TurnParkour\Variant_Combat\CombatCharacter.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>

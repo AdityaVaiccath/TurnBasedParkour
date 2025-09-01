@@ -42,12 +42,14 @@
 			"SideScrollingStateTreeUtility.gen.cpp.obj",
 			"SideScrollingUI.gen.cpp.obj",
 			"TP_Character_Base.gen.cpp.obj",
+			"TP_ParkourController.gen.cpp.obj",
 			"TurnParkour.init.gen.cpp.obj",
 			"TurnParkourCharacter.gen.cpp.obj",
 			"TurnParkourGameMode.gen.cpp.obj",
 			"TurnParkourPlayerController.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
 			"TP_Character_Base.cpp.obj",
+			"TP_ParkourController.cpp.obj",
 			"TurnParkour.cpp.obj",
 			"TurnParkourCharacter.cpp.obj",
 			"TurnParkourGameMode.cpp.obj",
@@ -72,10 +74,10 @@
 			"CombatAttacker.cpp.obj",
 			"CombatDamageable.cpp.obj",
 			"CombatLifeBar.cpp.obj",
-			"AnimNotify_EndDash.cpp.obj",
-			"PlatformingCharacter.cpp.obj"
+			"AnimNotify_EndDash.cpp.obj"
 		],
 		"Module.TurnParkour.3.cpp.obj": [
+			"PlatformingCharacter.cpp.obj",
 			"PlatformingGameMode.cpp.obj",
 			"PlatformingPlayerController.cpp.obj",
 			"SideScrollingAIController.cpp.obj",

@@ -21,13 +21,13 @@ void EmptyLinkFunctionForGeneratedCodeTurnParkour_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xEFEB1E1E,
-				0xBD1B2D85,
+				0x3684DA66,
+				0xC2C28A71,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_TurnParkour.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_TurnParkour.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TurnParkour(Z_Construct_UPackage__Script_TurnParkour, TEXT("/Script/TurnParkour"), Z_Registration_Info_UPackage__Script_TurnParkour, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xEFEB1E1E, 0xBD1B2D85));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TurnParkour(Z_Construct_UPackage__Script_TurnParkour, TEXT("/Script/TurnParkour"), Z_Registration_Info_UPackage__Script_TurnParkour, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x3684DA66, 0xC2C28A71));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

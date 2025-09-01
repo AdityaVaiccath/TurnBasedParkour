@@ -199,6 +199,9 @@
             "c:\\unrealproj\\turnbasedparkour\\turnparkour\\intermediate\\build\\win64\\unrealeditor\\inc\\turnparkour\\uht\\tp_character_base.gen.cpp",
             "c:\\unrealproj\\turnbasedparkour\\turnparkour\\source\\turnparkour\\public\\player\\tp_character_base.h",
             "c:\\unrealproj\\turnbasedparkour\\turnparkour\\intermediate\\build\\win64\\unrealeditor\\inc\\turnparkour\\uht\\tp_character_base.generated.h",
+            "c:\\unrealproj\\turnbasedparkour\\turnparkour\\intermediate\\build\\win64\\unrealeditor\\inc\\turnparkour\\uht\\tp_parkourcontroller.gen.cpp",
+            "c:\\unrealproj\\turnbasedparkour\\turnparkour\\source\\turnparkour\\public\\player\\tp_parkourcontroller.h",
+            "c:\\unrealproj\\turnbasedparkour\\turnparkour\\intermediate\\build\\win64\\unrealeditor\\inc\\turnparkour\\uht\\tp_parkourcontroller.generated.h",
             "c:\\unrealproj\\turnbasedparkour\\turnparkour\\intermediate\\build\\win64\\unrealeditor\\inc\\turnparkour\\uht\\turnparkour.init.gen.cpp",
             "c:\\unrealproj\\turnbasedparkour\\turnparkour\\intermediate\\build\\win64\\unrealeditor\\inc\\turnparkour\\uht\\turnparkourcharacter.gen.cpp",
             "c:\\unrealproj\\turnbasedparkour\\turnparkour\\source\\turnparkour\\turnparkourcharacter.h",
@@ -212,6 +215,7 @@
             "c:\\unrealproj\\turnbasedparkour\\turnparkour\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\turnparkour\\permoduleinline.gen.cpp",
             "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl",
             "c:\\unrealproj\\turnbasedparkour\\turnparkour\\source\\turnparkour\\private\\player\\tp_character_base.cpp",
+            "c:\\unrealproj\\turnbasedparkour\\turnparkour\\source\\turnparkour\\private\\player\\tp_parkourcontroller.cpp",
             "c:\\unrealproj\\turnbasedparkour\\turnparkour\\source\\turnparkour\\turnparkour.cpp",
             "c:\\unrealproj\\turnbasedparkour\\turnparkour\\source\\turnparkour\\turnparkour.h",
             "c:\\unrealproj\\turnbasedparkour\\turnparkour\\source\\turnparkour\\turnparkourcharacter.cpp",
@@ -403,8 +407,7 @@
             "c:\\unrealproj\\turnbasedparkour\\turnparkour\\source\\turnparkour\\variant_combat\\ui\\combatlifebar.cpp",
             "c:\\unrealproj\\turnbasedparkour\\turnparkour\\source\\turnparkour\\variant_platforming\\animation\\animnotify_enddash.cpp",
             "c:\\unrealproj\\turnbasedparkour\\turnparkour\\source\\turnparkour\\variant_platforming\\animation\\animnotify_enddash.h",
-            "c:\\unrealproj\\turnbasedparkour\\turnparkour\\intermediate\\build\\win64\\unrealeditor\\inc\\turnparkour\\uht\\animnotify_enddash.generated.h",
-            "c:\\unrealproj\\turnbasedparkour\\turnparkour\\source\\turnparkour\\variant_platforming\\platformingcharacter.cpp"
+            "c:\\unrealproj\\turnbasedparkour\\turnparkour\\intermediate\\build\\win64\\unrealeditor\\inc\\turnparkour\\uht\\animnotify_enddash.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
