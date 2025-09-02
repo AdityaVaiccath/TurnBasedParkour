@@ -74,10 +74,10 @@
 			"CombatAttacker.cpp.obj",
 			"CombatDamageable.cpp.obj",
 			"CombatLifeBar.cpp.obj",
-			"AnimNotify_EndDash.cpp.obj",
-			"PlatformingCharacter.cpp.obj"
+			"AnimNotify_EndDash.cpp.obj"
 		],
 		"Module.TurnParkour.3.cpp.obj": [
+			"PlatformingCharacter.cpp.obj",
 			"PlatformingGameMode.cpp.obj",
 			"PlatformingPlayerController.cpp.obj",
 			"SideScrollingAIController.cpp.obj",
