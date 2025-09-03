@@ -20,7 +20,7 @@ class TURNPARKOUR_API ATP_ParkourController : public APlayerController
 protected:
 
 	UPROPERTY(EditDefaultsOnly, Category = "Input")
-	TObjectPtr<UInputMappingContext> _inputMappingContext;
+	TObjectPtr<UInputMappingContext> _InputMappingContext;
 
 	virtual void BeginPlay() override;
 	virtual void SetupInputComponent() override;
