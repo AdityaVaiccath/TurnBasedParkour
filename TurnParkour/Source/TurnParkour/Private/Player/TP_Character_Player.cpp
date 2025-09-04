@@ -4,19 +4,32 @@
 #include "Player/TP_Character_Player.h"
 #include "EnhancedInputSubsystems.h" // For InputActionValue
 #include "EnhancedInputComponent.h"
+#include "GameFramework/SpringArmComponent.h"
+#include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
 
 ATP_Character_Player::ATP_Character_Player()
 {
 	GetCharacterMovement()->MaxWalkSpeed = m_WalkSpeed;
-	GetCharacterMovement()->bOrientRotationToMovement = false;
+	GetCharacterMovement()->bOrientRotationToMovement = true;
 
 
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, m_CameraRotationSpeed, 0.0f);
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationYaw = false;
 	bUseControllerRotationRoll = false;
+
+	// Creating Camera Boom
+	m_CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
+	m_CameraBoom->SetupAttachment(RootComponent);
+	m_CameraBoom->TargetArmLength = 400.0f;
+	m_CameraBoom->bUsePawnControlRotation = true;
+
+	// Camera Setup
+	m_Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
+	m_Camera->SetupAttachment(m_CameraBoom, USpringArmComponent::SocketName);
+	m_Camera->bUsePawnControlRotation = false;
 }
 
 void ATP_Character_Player::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
