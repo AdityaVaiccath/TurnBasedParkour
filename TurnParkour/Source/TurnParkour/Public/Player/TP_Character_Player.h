@@ -20,10 +20,6 @@ class TURNPARKOUR_API ATP_Character_Player : public ATP_Character_Base
 {
 	GENERATED_BODY()
 	
-
-/*
-	//////////PRIVATE///////////
-*/
 private:
 
 	UPROPERTY(EditAnywhere, Category = "Components")
@@ -33,7 +29,7 @@ private:
 	UCameraComponent* m_Camera;
 
 	UPROPERTY(EditAnywhere, Category = "MovementAttributes")
-	float m_WalkSpeed = 360.0f;
+	float m_WalkSpeed = 250.0f;
 
 	UPROPERTY(EditAnywhere, Category = "MovementAttributes")
 	float m_SprintSpeed = 500.0f;
@@ -47,10 +43,6 @@ private:
 	UPROPERTY(EditAnywhere, Category = "MovementAttributes")
 	float SprintSlowDelta;
 
-
-/*
-	/////////PROTECTED/////////
-*/
 protected:
 
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
@@ -76,10 +68,6 @@ protected:
 
 	void HandleLookInput(const FInputActionValue& InputValue);
 
-
-/*
-	/////////PUBLIC///////////
-*/
 public:
 
 	ATP_Character_Player();

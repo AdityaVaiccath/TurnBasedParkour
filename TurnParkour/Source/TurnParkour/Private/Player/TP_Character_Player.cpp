@@ -12,6 +12,8 @@
 ATP_Character_Player::ATP_Character_Player()
 {
 	GetCharacterMovement()->MaxWalkSpeed = m_WalkSpeed;
+	GetCharacterMovement()->BrakingDecelerationWalking = 2000.0f;
+	GetCharacterMovement()->BrakingDecelerationFalling = 1500.0f;
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 
 
