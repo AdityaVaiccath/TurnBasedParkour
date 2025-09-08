@@ -277,6 +277,9 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\TurnParkour\TurnParkourPlayerController.h"/>
+    <ClCompile Include="..\..\Source\TurnParkour\Private\Animation\MyAnimInstance.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\TurnParkour\Private\Player\TP_Character_Base.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -286,6 +289,7 @@
     <ClCompile Include="..\..\Source\TurnParkour\Private\Player\TP_ParkourController.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClInclude Include="..\..\Source\TurnParkour\Public\Animation\MyAnimInstance.h"/>
     <ClInclude Include="..\..\Source\TurnParkour\Public\Player\TP_Character_Base.h"/>
     <ClInclude Include="..\..\Source\TurnParkour\Public\Player\TP_Character_Player.h"/>
     <ClInclude Include="..\..\Source\TurnParkour\Public\Player\TP_ParkourController.h"/>

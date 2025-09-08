@@ -25,6 +25,7 @@
 		],
 		"Module.TurnParkour.2.cpp.obj": [
 			"EnvQueryContext_Player.gen.cpp.obj",
+			"MyAnimInstance.gen.cpp.obj",
 			"PlatformingCharacter.gen.cpp.obj",
 			"PlatformingGameMode.gen.cpp.obj",
 			"PlatformingPlayerController.gen.cpp.obj",
@@ -49,6 +50,7 @@
 			"TurnParkourGameMode.gen.cpp.obj",
 			"TurnParkourPlayerController.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
+			"MyAnimInstance.cpp.obj",
 			"TP_Character_Base.cpp.obj",
 			"TP_Character_Player.cpp.obj",
 			"TP_ParkourController.cpp.obj",
@@ -58,10 +60,10 @@
 			"TurnParkourPlayerController.cpp.obj",
 			"CombatAIController.cpp.obj",
 			"CombatEnemy.cpp.obj",
-			"CombatEnemySpawner.cpp.obj",
-			"CombatStateTreeUtility.cpp.obj"
+			"CombatEnemySpawner.cpp.obj"
 		],
 		"Module.TurnParkour.3.cpp.obj": [
+			"CombatStateTreeUtility.cpp.obj",
 			"EnvQueryContext_Player.cpp.obj",
 			"AnimNotify_CheckChargedAttack.cpp.obj",
 			"AnimNotify_CheckCombo.cpp.obj",

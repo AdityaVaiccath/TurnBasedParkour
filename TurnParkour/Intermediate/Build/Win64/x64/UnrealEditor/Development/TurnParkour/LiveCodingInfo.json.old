@@ -59,14 +59,14 @@
 			"CombatAIController.cpp.obj",
 			"CombatEnemy.cpp.obj",
 			"CombatEnemySpawner.cpp.obj",
-			"CombatStateTreeUtility.cpp.obj",
+			"CombatStateTreeUtility.cpp.obj"
+		],
+		"Module.TurnParkour.3.cpp.obj": [
 			"EnvQueryContext_Player.cpp.obj",
 			"AnimNotify_CheckChargedAttack.cpp.obj",
 			"AnimNotify_CheckCombo.cpp.obj",
 			"AnimNotify_DoAttackTrace.cpp.obj",
-			"CombatCharacter.cpp.obj"
-		],
-		"Module.TurnParkour.3.cpp.obj": [
+			"CombatCharacter.cpp.obj",
 			"CombatGameMode.cpp.obj",
 			"CombatPlayerController.cpp.obj",
 			"CombatActivationVolume.cpp.obj",

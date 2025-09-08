@@ -41,7 +41,10 @@ private:
 	float MaxSprintTime;
 
 	UPROPERTY(EditAnywhere, Category = "MovementAttributes")
-	float SprintSlowDelta;
+	float SlideDecelerationRate;
+
+	UPROPERTY()
+	bool bSprintPressed = false;
 
 protected:
 
@@ -68,6 +71,8 @@ protected:
 
 	void HandleLookInput(const FInputActionValue& InputValue);
 
+	void HandleCrouchInput();
+
 public:
 
 	ATP_Character_Player();
@@ -82,7 +87,19 @@ public:
 	void PlayerSprintStart();
 
 	UFUNCTION(BlueprintCallable)
-	void PlayerSprintStop();
+	virtual void PlayerSprintStop();
+
+	UFUNCTION(BlueprintCallable)
+	virtual void PlayerJumpStart();
+
+	UFUNCTION(BlueprintCallable)
+	void PlayerJumpEnd();
+
+	UFUNCTION(BlueprintCallable)
+	void PlayerCrouch();
+
+	UFUNCTION(BlueprintCallable)
+	void PlayerSlideStart();
 
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return m_CameraBoom; }
 

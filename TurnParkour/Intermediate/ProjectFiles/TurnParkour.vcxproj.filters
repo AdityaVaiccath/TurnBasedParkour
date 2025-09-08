@@ -65,6 +65,12 @@
     <Filter Include="Source\TurnParkour\Private">
       <UniqueIdentifier>{5499A177-97F6-3292-963E-625375C4A6A3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\TurnParkour\Private\Animation">
+      <UniqueIdentifier>{3946DAC4-65DA-37BF-87A9-9C96E6B80FAF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TurnParkour\Private\Animation\MyAnimInstance.cpp">
+      <Filter>Source\TurnParkour\Private\Animation</Filter>
+    </ClCompile>
     <Filter Include="Source\TurnParkour\Private\Player">
       <UniqueIdentifier>{1DC65E7F-F73A-3406-8606-0177177FA645}</UniqueIdentifier>
     </Filter>
@@ -80,6 +86,12 @@
     <Filter Include="Source\TurnParkour\Public">
       <UniqueIdentifier>{342847A6-1F77-3277-BD8C-2EBD765B93B1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\TurnParkour\Public\Animation">
+      <UniqueIdentifier>{348B65D9-6552-3C3E-BFC0-FA1827F97D2F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\TurnParkour\Public\Animation\MyAnimInstance.h">
+      <Filter>Source\TurnParkour\Public\Animation</Filter>
+    </ClInclude>
     <Filter Include="Source\TurnParkour\Public\Player">
       <UniqueIdentifier>{947F13CC-FC18-340F-A908-CE1D9B284178}</UniqueIdentifier>
     </Filter>

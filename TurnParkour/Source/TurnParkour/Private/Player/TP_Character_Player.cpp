@@ -62,6 +62,11 @@ void ATP_Character_Player::HandleLookInput(const FInputActionValue& Value)
 	PlayerLook(LookVector.X, LookVector.Y);
 }
 
+void ATP_Character_Player::HandleCrouchInput()
+{
+	bSprintPressed ? PlayerCrouch() : PlayerSlideStart();
+}
+
 void ATP_Character_Player::PlayerMovement(float Right, float Forward)
 {
 	if (GetController() != NULL)
@@ -93,10 +98,32 @@ void ATP_Character_Player::PlayerLook(float Yaw, float Pitch)
 
 void ATP_Character_Player::PlayerSprintStart()
 {
+	bSprintPressed = true;
 	GetCharacterMovement()->MaxWalkSpeed = 500.0f;
 }
 
 void ATP_Character_Player::PlayerSprintStop()
 {
+	bSprintPressed = false;
 	GetCharacterMovement()->MaxWalkSpeed = 360.0f;
+}
+
+void ATP_Character_Player::PlayerJumpStart()
+{
+	//
+}
+
+void ATP_Character_Player::PlayerJumpEnd()
+{
+	//
+}
+
+void ATP_Character_Player::PlayerCrouch()
+{
+
+}
+
+void ATP_Character_Player::PlayerSlideStart()
+{
+
 }
