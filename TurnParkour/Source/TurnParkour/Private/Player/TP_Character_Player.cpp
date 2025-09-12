@@ -6,6 +6,7 @@
 #include "EnhancedInputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
 
 
@@ -39,10 +40,11 @@ void ATP_Character_Player::SetupPlayerInputComponent(UInputComponent* PlayerInpu
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent))
 	{
 		EnhancedInputComponent->BindAction(_MoveAction, ETriggerEvent::Triggered, this, &ATP_Character_Player::HandleMoveInput);
+		EnhancedInputComponent->BindAction(_LookAction, ETriggerEvent::Triggered, this, &ATP_Character_Player::HandleLookInput);
+		EnhancedInputComponent->BindAction(_CrouchSlideAction, ETriggerEvent::Started, this, &ATP_Character_Player::HandleCrouchInput);
+
 		EnhancedInputComponent->BindAction(_SprintAction, ETriggerEvent::Triggered, this, &ATP_Character_Player::PlayerSprintStart);
 		EnhancedInputComponent->BindAction(_SprintAction, ETriggerEvent::Completed, this, &ATP_Character_Player::PlayerSprintStop);
-
-		EnhancedInputComponent->BindAction(_LookAction, ETriggerEvent::Triggered, this, &ATP_Character_Player::HandleLookInput);
 	}
 }
 
@@ -64,7 +66,7 @@ void ATP_Character_Player::HandleLookInput(const FInputActionValue& Value)
 
 void ATP_Character_Player::HandleCrouchInput()
 {
-	bSprintPressed ? PlayerCrouch() : PlayerSlideStart();
+	bSprintPressed ? PlayerSlideStart() : PlayerCrouch();
 }
 
 void ATP_Character_Player::PlayerMovement(float Right, float Forward)
@@ -120,7 +122,20 @@ void ATP_Character_Player::PlayerJumpEnd()
 
 void ATP_Character_Player::PlayerCrouch()
 {
-
+	bIsCrouching = !bIsCrouching;
+	
+	if (bIsCrouching)
+	{
+		// Crouching Height
+		GetCharacterMovement()->MaxWalkSpeed = m_WalkSpeed / 2;
+		GetCapsuleComponent()->SetCapsuleSize(21.0f,48.0f);
+	}
+	else
+	{
+		// Standing Height
+		GetCharacterMovement()->MaxWalkSpeed = m_WalkSpeed;
+		GetCapsuleComponent()->SetCapsuleSize(42.0f, 96.0f);
+	}
 }
 
 void ATP_Character_Player::PlayerSlideStart()

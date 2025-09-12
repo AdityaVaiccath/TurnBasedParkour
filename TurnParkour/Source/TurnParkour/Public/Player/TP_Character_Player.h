@@ -43,8 +43,11 @@ private:
 	UPROPERTY(EditAnywhere, Category = "MovementAttributes")
 	float SlideDecelerationRate;
 
-	UPROPERTY()
+	UPROPERTY(EditDefaultsOnly, Category = "Movement Check")
 	bool bSprintPressed = false;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Movement Check")
+	bool bIsCrouching = false;
 
 protected:
 
@@ -65,7 +68,7 @@ protected:
 	UInputAction* _JumpAction;
 
 	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Input")
-	UInputAction* _SlideAction;
+	UInputAction* _CrouchSlideAction;
 
 	void HandleMoveInput(const FInputActionValue& InputValue);
 
@@ -100,6 +103,9 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 	void PlayerSlideStart();
+
+	UFUNCTION(BlueprintCallable)
+	bool GetIsCrouching() const { return bIsCrouching; }
 
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return m_CameraBoom; }
 

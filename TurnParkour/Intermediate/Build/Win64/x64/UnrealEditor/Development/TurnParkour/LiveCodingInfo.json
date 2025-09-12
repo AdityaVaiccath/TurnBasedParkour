@@ -57,12 +57,12 @@
 			"TurnParkour.cpp.obj",
 			"TurnParkourCharacter.cpp.obj",
 			"TurnParkourGameMode.cpp.obj",
-			"TurnParkourPlayerController.cpp.obj",
-			"CombatAIController.cpp.obj",
-			"CombatEnemy.cpp.obj",
-			"CombatEnemySpawner.cpp.obj"
+			"TurnParkourPlayerController.cpp.obj"
 		],
 		"Module.TurnParkour.3.cpp.obj": [
+			"CombatAIController.cpp.obj",
+			"CombatEnemy.cpp.obj",
+			"CombatEnemySpawner.cpp.obj",
 			"CombatStateTreeUtility.cpp.obj",
 			"EnvQueryContext_Player.cpp.obj",
 			"AnimNotify_CheckChargedAttack.cpp.obj",

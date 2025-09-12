@@ -33,6 +33,3 @@
 #include "C:/UnrealProj/TurnBasedParkour/TurnParkour/Source/TurnParkour/TurnParkourCharacter.cpp"
 #include "C:/UnrealProj/TurnBasedParkour/TurnParkour/Source/TurnParkour/TurnParkourGameMode.cpp"
 #include "C:/UnrealProj/TurnBasedParkour/TurnParkour/Source/TurnParkour/TurnParkourPlayerController.cpp"
-#include "C:/UnrealProj/TurnBasedParkour/TurnParkour/Source/TurnParkour/Variant_Combat/AI/CombatAIController.cpp"
-#include "C:/UnrealProj/TurnBasedParkour/TurnParkour/Source/TurnParkour/Variant_Combat/AI/CombatEnemy.cpp"
-#include "C:/UnrealProj/TurnBasedParkour/TurnParkour/Source/TurnParkour/Variant_Combat/AI/CombatEnemySpawner.cpp"
