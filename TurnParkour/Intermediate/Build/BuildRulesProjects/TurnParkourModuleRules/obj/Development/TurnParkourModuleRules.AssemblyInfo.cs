@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TurnParkourModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bbc779d185b8f9849645fe3d901e60fd411ecac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce329a3398edf7a23da43fe52516f01a9c9412bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("TurnParkourModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TurnParkourModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -100,12 +100,16 @@ void ATP_Character_Player::PlayerLook(float Yaw, float Pitch)
 
 void ATP_Character_Player::PlayerSprintStart()
 {
+	if (bIsCrouching) return;
+
 	bSprintPressed = true;
 	GetCharacterMovement()->MaxWalkSpeed = 500.0f;
 }
 
 void ATP_Character_Player::PlayerSprintStop()
 {
+	if (bIsCrouching) return;
+
 	bSprintPressed = false;
 	GetCharacterMovement()->MaxWalkSpeed = 360.0f;
 }
@@ -122,19 +126,21 @@ void ATP_Character_Player::PlayerJumpEnd()
 
 void ATP_Character_Player::PlayerCrouch()
 {
+	if (bSprintPressed) return; // Will Add the slide mechanic later on
+
 	bIsCrouching = !bIsCrouching;
 	
 	if (bIsCrouching)
 	{
 		// Crouching Height
-		GetCharacterMovement()->MaxWalkSpeed = m_WalkSpeed / 2;
-		GetCapsuleComponent()->SetCapsuleSize(21.0f,48.0f);
+		GetCharacterMovement()->MaxWalkSpeed = m_WalkSpeed / 2.0f;
+		//GetCapsuleComponent()->SetCapsuleSize(42.0f,48.0f);
 	}
 	else
 	{
 		// Standing Height
 		GetCharacterMovement()->MaxWalkSpeed = m_WalkSpeed;
-		GetCapsuleComponent()->SetCapsuleSize(42.0f, 96.0f);
+		//GetCapsuleComponent()->SetCapsuleSize(42.0f, 96.0f);
 	}
 }
 

@@ -29,7 +29,7 @@ private:
 	UCameraComponent* m_Camera;
 
 	UPROPERTY(EditAnywhere, Category = "MovementAttributes")
-	float m_WalkSpeed = 250.0f;
+	float m_WalkSpeed = 275.0f;
 
 	UPROPERTY(EditAnywhere, Category = "MovementAttributes")
 	float m_SprintSpeed = 500.0f;
