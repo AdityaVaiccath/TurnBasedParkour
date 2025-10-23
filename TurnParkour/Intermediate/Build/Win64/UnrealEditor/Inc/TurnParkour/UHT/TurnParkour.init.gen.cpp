@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeTurnParkour_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x1DD6BF00,
+				0xFD7FE77B,
 				0x8DF98D06,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -29,5 +29,5 @@ void EmptyLinkFunctionForGeneratedCodeTurnParkour_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_TurnParkour.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TurnParkour(Z_Construct_UPackage__Script_TurnParkour, TEXT("/Script/TurnParkour"), Z_Registration_Info_UPackage__Script_TurnParkour, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x1DD6BF00, 0x8DF98D06));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TurnParkour(Z_Construct_UPackage__Script_TurnParkour, TEXT("/Script/TurnParkour"), Z_Registration_Info_UPackage__Script_TurnParkour, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xFD7FE77B, 0x8DF98D06));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

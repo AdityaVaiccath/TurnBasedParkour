@@ -43,6 +43,21 @@ private:
 	UPROPERTY(EditAnywhere, Category = "MovementAttributes")
 	float SlideDecelerationRate;
 
+	UPROPERTY(EditAnywhere, Category = "MovementAttributes")
+	UCurveFloat* m_JumpCurve;
+	
+	float m_JumpTime;
+	float m_PrevJumpValue;
+
+	UPROPERTY(EditAnywhere, Category = "MovementAttributes")
+	float m_Min_JumpTime;
+
+	UPROPERTY(EditAnywhere, Category = "MovementAttributes")
+	float m_Max_JumpTime;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Movement Check")
+	bool bIsJumping = false;
+
 	UPROPERTY(EditDefaultsOnly, Category = "Movement Check")
 	bool bSprintPressed = false;
 
@@ -50,7 +65,7 @@ private:
 	bool bIsCrouching = false;
 
 protected:
-
+	virtual void Tick(float DeltaTime) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	/* Input Actions */

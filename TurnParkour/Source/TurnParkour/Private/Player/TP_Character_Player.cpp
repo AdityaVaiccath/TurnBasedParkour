@@ -12,12 +12,16 @@
 
 ATP_Character_Player::ATP_Character_Player()
 {
+	// Setting Tick Component
+	SetActorTickEnabled(false);
+
+	// Movement Setup
 	GetCharacterMovement()->MaxWalkSpeed = m_WalkSpeed;
 	GetCharacterMovement()->BrakingDecelerationWalking = 2000.0f;
 	GetCharacterMovement()->BrakingDecelerationFalling = 1500.0f;
 	GetCharacterMovement()->bOrientRotationToMovement = true;
 
-
+	// Rotataion Setup
 	GetCharacterMovement()->RotationRate = FRotator(0.0f, m_CameraRotationSpeed, 0.0f);
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationYaw = false;
@@ -33,6 +37,25 @@ ATP_Character_Player::ATP_Character_Player()
 	m_Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	m_Camera->SetupAttachment(m_CameraBoom, USpringArmComponent::SocketName);
 	m_Camera->bUsePawnControlRotation = false;
+
+	// Jump Setup
+	if (m_JumpCurve) m_JumpCurve->GetTimeRange(m_Min_JumpTime, m_Max_JumpTime);	
+}
+
+void ATP_Character_Player::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	if (m_JumpTime <= m_Max_JumpTime)
+	{
+		m_JumpTime += DeltaTime;
+
+		float m_CurrentJumpValue = m_JumpCurve->GetFloatValue(m_JumpTime);
+		float m_JumpTime_Delta = m_CurrentJumpValue - m_PrevJumpValue;
+		m_PrevJumpValue = m_CurrentJumpValue;
+
+		
+	}
 }
 
 void ATP_Character_Player::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -52,7 +75,6 @@ void ATP_Character_Player::HandleMoveInput(const FInputActionValue& Value)
 {
 	FVector2D MovementVector = Value.Get<FVector2D>();
 
-	// Handle the movement of the character
 	PlayerMovement(MovementVector.X, MovementVector.Y);
 }
 
@@ -60,7 +82,6 @@ void ATP_Character_Player::HandleLookInput(const FInputActionValue& Value)
 {
 	FVector2D LookVector = Value.Get<FVector2D>();
 
-	// Handling the Look of the character
 	PlayerLook(LookVector.X, LookVector.Y);
 }
 
@@ -116,12 +137,24 @@ void ATP_Character_Player::PlayerSprintStop()
 
 void ATP_Character_Player::PlayerJumpStart()
 {
-	//
+	if (!bIsJumping && m_JumpCurve)
+	{
+		if (!GetCharacterMovement()->bConstrainToPlane || 
+			FMath::Abs(GetCharacterMovement()->GetPlaneConstraintNormal().Z) != 1)
+		{
+			bIsJumping = true;
+
+			m_JumpTime = m_Min_JumpTime;
+			m_PrevJumpValue = m_JumpCurve->GetFloatValue(m_JumpTime);
+
+			SetActorTickEnabled(true);
+		}
+	}
 }
 
 void ATP_Character_Player::PlayerJumpEnd()
 {
-	//
+	SetActorTickEnabled(false);
 }
 
 void ATP_Character_Player::PlayerCrouch()
