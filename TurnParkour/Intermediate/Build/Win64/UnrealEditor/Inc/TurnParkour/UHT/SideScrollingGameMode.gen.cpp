@@ -153,14 +153,14 @@ ASideScrollingGameMode::~ASideScrollingGameMode() {}
 // ********** End Class ASideScrollingGameMode *****************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_SideScrolling_SideScrollingGameMode_h__Script_TurnParkour_Statics
+struct Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_SideScrolling_SideScrollingGameMode_h__Script_TurnParkour_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ASideScrollingGameMode, ASideScrollingGameMode::StaticClass, TEXT("ASideScrollingGameMode"), &Z_Registration_Info_UClass_ASideScrollingGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASideScrollingGameMode), 159542731U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_SideScrolling_SideScrollingGameMode_h__Script_TurnParkour_3221103531(TEXT("/Script/TurnParkour"),
-	Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_SideScrolling_SideScrollingGameMode_h__Script_TurnParkour_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_SideScrolling_SideScrollingGameMode_h__Script_TurnParkour_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_SideScrolling_SideScrollingGameMode_h__Script_TurnParkour_3221103531(TEXT("/Script/TurnParkour"),
+	Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_SideScrolling_SideScrollingGameMode_h__Script_TurnParkour_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_SideScrolling_SideScrollingGameMode_h__Script_TurnParkour_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

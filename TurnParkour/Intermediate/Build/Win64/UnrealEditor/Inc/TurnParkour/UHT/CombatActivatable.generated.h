@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class AActor;
 
 // ********** Begin Interface UCombatActivatable ***************************************************
-#define FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execDeactivateInteraction); \
 	DECLARE_FUNCTION(execActivateInteraction); \
 	DECLARE_FUNCTION(execToggleInteraction);
@@ -27,7 +27,7 @@ class AActor;
 
 TURNPARKOUR_API UClass* Z_Construct_UClass_UCombatActivatable_NoRegister();
 
-#define FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	TURNPARKOUR_API UCombatActivatable(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -39,7 +39,7 @@ TURNPARKOUR_API UClass* Z_Construct_UClass_UCombatActivatable_NoRegister();
 	virtual ~UCombatActivatable() = default;
 
 
-#define FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_GENERATED_UINTERFACE_BODY() \
+#define FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_GENERATED_UINTERFACE_BODY() \
 private: \
 	static void StaticRegisterNativesUCombatActivatable(); \
 	friend struct Z_Construct_UClass_UCombatActivatable_Statics; \
@@ -50,15 +50,15 @@ public: \
 	DECLARE_SERIALIZER(UCombatActivatable)
 
 
-#define FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_GENERATED_BODY \
+#define FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_GENERATED_BODY \
 	PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-	FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_GENERATED_UINTERFACE_BODY() \
-	FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_GENERATED_UINTERFACE_BODY() \
+	FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_INCLASS_IINTERFACE_NO_PURE_DECLS \
+#define FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_INCLASS_IINTERFACE_NO_PURE_DECLS \
 protected: \
 	virtual ~ICombatActivatable() {} \
 public: \
@@ -67,12 +67,12 @@ public: \
 	virtual UObject* _getUObject() const { return nullptr; }
 
 
-#define FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_13_PROLOG
-#define FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_21_GENERATED_BODY \
+#define FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_13_PROLOG
+#define FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_INCLASS_IINTERFACE_NO_PURE_DECLS \
+	FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h_16_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -82,6 +82,6 @@ class UCombatActivatable;
 // ********** End Interface UCombatActivatable *****************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h
+#define CURRENT_FILE_ID FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Interfaces_CombatActivatable_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

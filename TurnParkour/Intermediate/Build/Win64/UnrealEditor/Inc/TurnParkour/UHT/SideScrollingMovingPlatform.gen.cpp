@@ -243,14 +243,14 @@ ASideScrollingMovingPlatform::~ASideScrollingMovingPlatform() {}
 // ********** End Class ASideScrollingMovingPlatform ***********************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_SideScrolling_Gameplay_SideScrollingMovingPlatform_h__Script_TurnParkour_Statics
+struct Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_SideScrolling_Gameplay_SideScrollingMovingPlatform_h__Script_TurnParkour_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ASideScrollingMovingPlatform, ASideScrollingMovingPlatform::StaticClass, TEXT("ASideScrollingMovingPlatform"), &Z_Registration_Info_UClass_ASideScrollingMovingPlatform, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASideScrollingMovingPlatform), 503036578U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_SideScrolling_Gameplay_SideScrollingMovingPlatform_h__Script_TurnParkour_1583559904(TEXT("/Script/TurnParkour"),
-	Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_SideScrolling_Gameplay_SideScrollingMovingPlatform_h__Script_TurnParkour_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_SideScrolling_Gameplay_SideScrollingMovingPlatform_h__Script_TurnParkour_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_SideScrolling_Gameplay_SideScrollingMovingPlatform_h__Script_TurnParkour_1583559904(TEXT("/Script/TurnParkour"),
+	Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_SideScrolling_Gameplay_SideScrollingMovingPlatform_h__Script_TurnParkour_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_SideScrolling_Gameplay_SideScrollingMovingPlatform_h__Script_TurnParkour_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

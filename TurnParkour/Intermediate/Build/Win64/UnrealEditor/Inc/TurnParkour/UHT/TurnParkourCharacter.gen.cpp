@@ -389,14 +389,14 @@ ATurnParkourCharacter::~ATurnParkourCharacter() {}
 // ********** End Class ATurnParkourCharacter ******************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h__Script_TurnParkour_Statics
+struct Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h__Script_TurnParkour_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ATurnParkourCharacter, ATurnParkourCharacter::StaticClass, TEXT("ATurnParkourCharacter"), &Z_Registration_Info_UClass_ATurnParkourCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATurnParkourCharacter), 1962205629U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h__Script_TurnParkour_2008973839(TEXT("/Script/TurnParkour"),
-	Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h__Script_TurnParkour_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h__Script_TurnParkour_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h__Script_TurnParkour_2008973839(TEXT("/Script/TurnParkour"),
+	Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h__Script_TurnParkour_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h__Script_TurnParkour_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

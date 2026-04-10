@@ -99,14 +99,14 @@ ATP_Character_Base::~ATP_Character_Base() {}
 // ********** End Class ATP_Character_Base *********************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Public_Player_TP_Character_Base_h__Script_TurnParkour_Statics
+struct Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Public_Player_TP_Character_Base_h__Script_TurnParkour_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ATP_Character_Base, ATP_Character_Base::StaticClass, TEXT("ATP_Character_Base"), &Z_Registration_Info_UClass_ATP_Character_Base, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATP_Character_Base), 242061883U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Public_Player_TP_Character_Base_h__Script_TurnParkour_525968667(TEXT("/Script/TurnParkour"),
-	Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Public_Player_TP_Character_Base_h__Script_TurnParkour_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Public_Player_TP_Character_Base_h__Script_TurnParkour_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Public_Player_TP_Character_Base_h__Script_TurnParkour_525968667(TEXT("/Script/TurnParkour"),
+	Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Public_Player_TP_Character_Base_h__Script_TurnParkour_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Public_Player_TP_Character_Base_h__Script_TurnParkour_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

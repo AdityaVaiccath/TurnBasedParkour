@@ -228,14 +228,14 @@ ACombatLavaFloor::~ACombatLavaFloor() {}
 // ********** End Class ACombatLavaFloor ***********************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Gameplay_CombatLavaFloor_h__Script_TurnParkour_Statics
+struct Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Gameplay_CombatLavaFloor_h__Script_TurnParkour_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ACombatLavaFloor, ACombatLavaFloor::StaticClass, TEXT("ACombatLavaFloor"), &Z_Registration_Info_UClass_ACombatLavaFloor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACombatLavaFloor), 382757764U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Gameplay_CombatLavaFloor_h__Script_TurnParkour_1105923477(TEXT("/Script/TurnParkour"),
-	Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Gameplay_CombatLavaFloor_h__Script_TurnParkour_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Gameplay_CombatLavaFloor_h__Script_TurnParkour_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Gameplay_CombatLavaFloor_h__Script_TurnParkour_1105923477(TEXT("/Script/TurnParkour"),
+	Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Gameplay_CombatLavaFloor_h__Script_TurnParkour_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_Variant_Combat_Gameplay_CombatLavaFloor_h__Script_TurnParkour_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

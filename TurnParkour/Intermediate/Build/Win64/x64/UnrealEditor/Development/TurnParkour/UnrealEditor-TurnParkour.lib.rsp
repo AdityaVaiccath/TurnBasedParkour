@@ -6,9 +6,9 @@
 /NAME:"UnrealEditor-TurnParkour.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:/UnrealProj/TurnBasedParkour/TurnParkour/Intermediate/Build/Win64/x64/TurnParkourEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
-"C:/UnrealProj/TurnBasedParkour/TurnParkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/TurnParkour/Module.TurnParkour.1.cpp.obj"
-"C:/UnrealProj/TurnBasedParkour/TurnParkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/TurnParkour/Module.TurnParkour.2.cpp.obj"
-"C:/UnrealProj/TurnBasedParkour/TurnParkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/TurnParkour/Module.TurnParkour.3.cpp.obj"
-"C:/UnrealProj/TurnBasedParkour/TurnParkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/TurnParkour/Default.rc2.res"
-/OUT:"C:/UnrealProj/TurnBasedParkour/TurnParkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/TurnParkour/UnrealEditor-TurnParkour.lib"
+"D:/Unreal Projects/TurnBasedParkour/TurnParkour/Intermediate/Build/Win64/x64/TurnParkourEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"D:/Unreal Projects/TurnBasedParkour/TurnParkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/TurnParkour/Module.TurnParkour.1.cpp.obj"
+"D:/Unreal Projects/TurnBasedParkour/TurnParkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/TurnParkour/Module.TurnParkour.2.cpp.obj"
+"D:/Unreal Projects/TurnBasedParkour/TurnParkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/TurnParkour/Module.TurnParkour.3.cpp.obj"
+"D:/Unreal Projects/TurnBasedParkour/TurnParkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/TurnParkour/Default.rc2.res"
+/OUT:"D:/Unreal Projects/TurnBasedParkour/TurnParkour/Intermediate/Build/Win64/x64/UnrealEditor/Development/TurnParkour/UnrealEditor-TurnParkour.lib"

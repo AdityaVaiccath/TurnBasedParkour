@@ -1,4 +1,5 @@
 /I "."
+/I "C:/UnrealProj/TurnBasedParkour/TurnParkour/Source/TurnParkour/Private"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/Engine/UHT"
 /I "Runtime/Engine/Classes"
 /I "Runtime/Engine/Public"
@@ -301,6 +302,7 @@
 /I "C:/UnrealProj/TurnBasedParkour/TurnParkour/Source/TurnParkour/Variant_SideScrolling/Interfaces"
 /I "C:/UnrealProj/TurnBasedParkour/TurnParkour/Source/TurnParkour/Variant_SideScrolling/UI"
 /I "C:/UnrealProj/TurnBasedParkour/TurnParkour/Source"
+/I "C:/UnrealProj/TurnBasedParkour/TurnParkour/Source/TurnParkour/Public"
 /I "../Plugins/EnhancedInput/Intermediate/Build/Win64/UnrealEditor/Inc/EnhancedInput/UHT"
 /I "../Plugins/EnhancedInput/Source"
 /I "../Plugins/EnhancedInput/Source/EnhancedInput/Public"

@@ -17,7 +17,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class ATurnParkourCharacter ****************************************************
-#define FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execDoJumpEnd); \
 	DECLARE_FUNCTION(execDoJumpStart); \
 	DECLARE_FUNCTION(execDoLook); \
@@ -26,7 +26,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 TURNPARKOUR_API UClass* Z_Construct_UClass_ATurnParkourCharacter_NoRegister();
 
-#define FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h_24_INCLASS_NO_PURE_DECLS \
+#define FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h_24_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATurnParkourCharacter(); \
 	friend struct Z_Construct_UClass_ATurnParkourCharacter_Statics; \
@@ -37,7 +37,7 @@ public: \
 	DECLARE_SERIALIZER(ATurnParkourCharacter)
 
 
-#define FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h_24_ENHANCED_CONSTRUCTORS \
+#define FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h_24_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ATurnParkourCharacter(ATurnParkourCharacter&&) = delete; \
 	ATurnParkourCharacter(const ATurnParkourCharacter&) = delete; \
@@ -47,13 +47,13 @@ public: \
 	NO_API virtual ~ATurnParkourCharacter();
 
 
-#define FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h_21_PROLOG
-#define FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h_24_GENERATED_BODY \
+#define FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h_21_PROLOG
+#define FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h_24_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h_24_INCLASS_NO_PURE_DECLS \
-	FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h_24_ENHANCED_CONSTRUCTORS \
+	FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h_24_INCLASS_NO_PURE_DECLS \
+	FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h_24_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -63,6 +63,6 @@ class ATurnParkourCharacter;
 // ********** End Class ATurnParkourCharacter ******************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_UnrealProj_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h
+#define CURRENT_FILE_ID FID_Unreal_Projects_TurnBasedParkour_TurnParkour_Source_TurnParkour_TurnParkourCharacter_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
